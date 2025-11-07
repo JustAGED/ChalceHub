@@ -3,18 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChalceHub</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>ChalceHub | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<nav>
-  <a href="index.html">Home</a>
-  <a href="events.html">Events</a>
-  <a href="grades.html">Grades</a>
-  <a href="journal.html">Journal</a>
-  <a href="memory.html">Memory</a>
-</nav>
 <body>
-  <h1>Welcome to ChalceHub</h1>
-  <p>Your Chalcedony-themed hub begins here.</p>
+  <header>
+    <h1>ChalceHub</h1>
+    <p class="tagline">Your Academic Chronicle of School Life</p>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="grades.html">Grade Journals</a></li>
+        <li><a href="journal.html">Articles</a></li>
+        <li><a href="memory.html">Memories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to ChalceHub!</h2>
+    <p>Explore your school’s academic journey, highlights, and stories — all in one hub.</p>
+    <button onclick="window.location.href='events.html'">Explore Events</button>
+  </section>
+
+  <section class="about">
+    <h3>About ChalceHub</h3>
+    <p>ChalceHub is our school’s interactive digital journal that showcases academic achievements, events, and memories throughout the year. Inspired by the Chalcedony gem, it reflects clarity, intellect, and creativity.</p>
+  </section>
+
+  <section class="video-feature">
+    <h3>Featured Video</h3>
+    <video controls>
+      <source src="videos/highlights.mp4" type="video/mp4">
+      Your browser does not support video playback.
+    </video>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ChalceHub | Crafted by [Your Team Name]</p>
+  </footer>
 </body>
 </html>
